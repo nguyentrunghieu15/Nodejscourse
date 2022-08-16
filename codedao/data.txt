@@ -1,0 +1,10 @@
+HelllWorld
+Check New Line
+This is test Program
+10
+true
+Jonhney Deep
+8353
+10
+11
+// Loi noi cuoi , hay nam vung kien thuc js co ban nay nhe

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=width-device initials-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/vue@next" defer></script>
+        <script src="app.js" defer></script>
+        <h1>Events</h1>
+    </head>
+    <body>
+        <section id="eventPractice">
+            <h2>Event Pratice</h1>
+            <button v-on:click="showAlert" >Show Alert</button>
+            <hr>
+            <input type="text" v-on:input="input1">
+            <p>{{output1}}</p>
+            <input type="text" v-on:keyup.Enter="input2">
+            <p>{{output2}}</p>
+        </section>
+    </body>
+    <footer>
+
+    </footer>
+</html>

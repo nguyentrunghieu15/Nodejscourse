@@ -1,0 +1,18 @@
+header h1 {
+    text-align: center;
+    background-color: aqua;
+    width: 90%;
+    max-width: 40rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    font-family: 'Courier New';
+}
+section {
+    box-shadow: 1px 2px 5px 10px #ccc;
+    width: 90%;
+    max-width: 40rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+}

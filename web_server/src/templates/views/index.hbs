@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/image/cam-tu-cau-da-lat.jpg" type="image/x-icon">
+    <head>
+        {{>header}}
+    </head>
+    <body>
+        <h1>Weather by {{name}}</h1>
+        <form id ="getUsersData">
+            <input id="inputData" placeholder="Location" value="">
+            <button>Search</button>
+        </form>
+        <div>
+            <label type="text">Temp: <label id="temp"></label> </label>
+            <br>
+            <label type="text" >Weather:<label id = "weather"></label> </label>
+            <br>
+            <label type="text" >Country:<label id = "country"></label> </label>
+        </div>
+    <script type="text/javascript" src="/js/users.js"></script>
+    </body>
+    <footer>
+        {{>footer}}
+    </footer>   
+</html>

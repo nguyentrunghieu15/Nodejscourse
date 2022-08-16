@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="view port" content="width=device-width,initail -scale=1.0"/>
+        <script src="https://unpkg.com/vue@next" defer></script>
+        <link rel="stylesheet" href="styles2.css">
+        <script src="app.js" defer></script>
+        <title>Lesson 2</title>
+        <h1>Vue event</h1>
+    </head>
+    <body>
+        <section id="vue-event">
+            <h2><a v-bind:href="URLEvent" >Events</a> in Action</h2>
+            <button v-on:click="add()">Add</button>
+            <button v-on:click="reduce()">Reduce</button>
+            <p>Resust: {{couter}}</p>
+            <input type="text" v-model="name">
+            <button v-on:click="reset()">Reset</button>
+            <p><b>Your name: {{fullname}}</b></p>
+        </section>
+    </body>
+</html>
+<!-- V-on: === @ (short hands of v-on:)
+    neu da short hand thi nen apply for all
+    v-bind: === : (short hand if v-bind:)
+    -->

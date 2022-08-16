@@ -1,0 +1,44 @@
+h1 {
+    background-color: #2b7c46;
+    color: #fff;
+    font-family: monospace;
+    padding: 2rem;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 25rem;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+#eventPractice {
+    box-shadow: 0px 10px 20px #ccc;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 5px;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 25rem;
+    padding: 2rem;
+}
+h2 {
+    color: #2b7c46;
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 1rem;
+    font-size: 30px;
+}
+button {
+    border-radius: 5px;
+    color: #000;
+    background-color: aquamarine;
+}
+input {
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #444;
+}
+p {
+    background-color: rgb(73, 195, 144);
+    border-radius: 10px;
+    padding: 0.25rem;
+    font-style: bold;
+    font-size: 20px;
+}
