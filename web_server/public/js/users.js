@@ -22,3 +22,34 @@ form.addEventListener('submit',(event)=>{
         })
     })
 });
+
+window.addEventListener('message',(event)=>{
+    console.log(event);
+    switch(event.data){
+        case "synthesis":
+            alert("synthesis");
+            break;
+        case "delegate":
+            alert("delegate");
+            break;
+        case "baseLine":
+            alert("Base Line");
+            break;
+        case "resource":
+            alert("resource");
+            break;
+        case "resourceGroup":
+            alert("resourceGroup");
+            break;
+        case "topDown":
+            alert("topDown");
+            break;
+        case "importXML":
+            alert("importXML");
+            break;
+        case "gridSetting":
+            alert("gridSetting");
+            break;  
+    }
+});
+                
